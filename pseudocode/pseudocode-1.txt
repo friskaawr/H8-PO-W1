@@ -26,19 +26,19 @@ AND "tahun" mod 400 equals 0)
 
 3. STORE "bajufoxie" with 1
 
-   WHILE "bajufoxie" <= 20
+   WHILE "bajufoxie" LESS THAN EQUALS TO 20
    Add "bajufoxie" by 1
 	
-   IF ("bajufoxie"==20)
+   IF ("bajufoxie" EQUALS 20)
    SHOW "Baju sudah 20 siap untuk di cuci:)"
    DO "nyalakanmesincuci"
 
 4. STORE "periksakuku" to 1
    
    
-   WHILE "periksakuku" <= 40
+   WHILE "periksakuku" LESS THAN EQUALS TO 40
 	
-   IF (kuku = tidakpanjang) 
+   IF (kuku EQUALS tidakpanjang) 
 	   
      DISPLAY ("kamu anak baik")
 	

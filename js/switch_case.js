@@ -55,4 +55,9 @@ switch(bulan){
 	break;
 }
 
-console.log(tanggal+" "+tampil_bulan+ " "+tahun);
+if(bulan<=12 && tanggal <= 31){
+	console.log(tanggal+" "+tampil_bulan+ " "+tahun);
+}
+else {
+	console.log("error")
+}
