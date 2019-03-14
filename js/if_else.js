@@ -1,8 +1,11 @@
-var nama = 'Friska';
+var nama = '';
 var peran = 'Tabib';
 
 if (nama==='' && peran === ''){
 	console.log("Nama dan Peran harus di isi!!!");
+}
+else if(nama==''){
+	console.log("Nama harus diisi");
 }
 else if (peran===''){
 	console.log("Halo " +nama+ ", Pilih peranmu untuk memulai game");
@@ -19,5 +22,5 @@ else if (peran==='Penyihir'){
 	console.log("Halo Penyihir " +nama+ ", kamu akan membantu temanmu yang terluka.");
 }
 else{
-	console.log("Invalid input, please try again!!");
+	console.log("Invalid Input");
 }
